@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_CRED = credentials('dockerCredintial')
+        DOCKERHUB_CRED = credentials('dockerCredential')
     }
     
     stages {

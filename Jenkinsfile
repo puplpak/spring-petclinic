@@ -69,7 +69,7 @@ pipeline {
                 remoteDirectory: '',
                 remoteDirectorySDF: false,
                 removePrefix: 'target',
-                sourceFiles: )],
+                sourceFiles: '')],
                 usePromotionTimestamp: false,
                 useWorkspaceInPromotion: false,
                 verbose: false)])

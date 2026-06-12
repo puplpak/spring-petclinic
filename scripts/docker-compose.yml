@@ -1,7 +1,7 @@
 version: '3.9'
 services:
-  std00-myweb:
-    image: s4616/myweb:1.0
-    container_name: myweb
+  std08-spring-petclinic:
+    image: borapak/spring-petclinic
+    container_name: spring-petclinic
     ports:
-      - "80:80"
+      - "80:8080"
